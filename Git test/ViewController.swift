@@ -28,6 +28,7 @@ class ViewController: UIViewController {
     func anotherPrint() {
         //print_bug_2
         //print_bug
+        //print_bug3
         print("another print")
     }
 
