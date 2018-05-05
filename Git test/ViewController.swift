@@ -25,7 +25,8 @@ class ViewController: UIViewController {
     }
 
     func anotherPrint() {
-        
+        //print
+        print("another print")
     }
 
     override func didReceiveMemoryWarning() {
