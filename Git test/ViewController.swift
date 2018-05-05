@@ -24,6 +24,11 @@ class ViewController: UIViewController {
         print(value)
     }
 
+    func anotherPrint() {
+        //print
+        print("another print")
+    }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
