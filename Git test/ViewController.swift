@@ -20,6 +20,7 @@ class ViewController: UIViewController {
 
 
     func pintConsol(value: String) {
+        //print
         print(value)
     }
 
