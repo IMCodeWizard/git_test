@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
+        pintConsol(value: "Hello Wolrd")
+
+    }
+
+
+    func pintConsol(value: String) {
+        print(value)
     }
 
     override func didReceiveMemoryWarning() {
