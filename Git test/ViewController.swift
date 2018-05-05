@@ -15,12 +15,20 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
 
         pintConsol(value: "Hello Wolrd")
+        //bug_fix
 
     }
 
 
     func pintConsol(value: String) {
+        //print
         print(value)
+    }
+
+    func anotherPrint() {
+        //print_bug_2
+        //print_bug
+        print("another print")
     }
 
     override func didReceiveMemoryWarning() {
